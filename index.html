@@ -12,13 +12,16 @@
 
 <body>
 
-    <audio controls="controls" id="audio">
-        <source src="audios/AirHorn.mp3" type="audio/ogg" />
-    </audio>
+    <div class="container text-center">
 
-    <p id="timer"></p>
-    <a href="#" onclick="audioSoundFunction()">Start</a>
+        <audio controls="controls" id="audio">
+            <source src="audios/AirHorn.mp3" type="audio/ogg" />
+        </audio>
 
+        <p id="timer"></p>
+        <a href="#" onclick="audioSoundFunction()" class="btn btn-primary">Start</a>
+
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
